@@ -2,6 +2,6 @@
 - hosts: all
   become: yes
   tasks:
-  - name: copy files
-    copy: src=/opt/pbex dest=/opt
+  - name: create files
+    file: path=/opt/pbex/file1 state=touch"
 
