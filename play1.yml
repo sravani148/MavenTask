@@ -3,5 +3,5 @@
   become: yes
   tasks:
   - name: create files
-    file: path=/opt/pbex/file1 state=touch"
+    file: path=/opt/pbex/file2 state=touch
 
